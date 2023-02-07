@@ -440,13 +440,13 @@ hr {
     background: lch(91% 14.4 74);
     font-size: 50px; }
   .tile.tile-89 .tile-inner {
-    color: #f9f6f2;
-    background: #eddcb6;
+    color: #776e65;
+    background: lch(90% 16 72);
     font-size: 50px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.07937), inset 0 0 0 1px rgba(255, 255, 255, 0.04762); }
   .tile.tile-144 .tile-inner {
-    color: #f9f6f2;
-    background: #edd8a5;
+    color: #776e65;
+    background: lch(89% 17.6 70);
     font-size: 40px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.15873), inset 0 0 0 1px rgba(255, 255, 255, 0.09524); }
     @media screen and (max-width: 520px) {
@@ -457,29 +457,29 @@ hr {
       .tile.tile-89 .tile-inner {font-size: 27px; }
       .tile.tile-144 .tile-inner {font-size: 18px; } }
   .tile.tile-233 .tile-inner {
-    color: #f9f6f2;
-    background: #edd594;
+    color: #776e65;
+    background: lch(88% 19.2 68);
     font-size: 40px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286); }
     @media screen and (max-width: 520px) {
       .tile.tile-233 .tile-inner {font-size: 18px; } }
   .tile.tile-377 .tile-inner {
-    color: #f9f6f2;
-    background: #edd283;
+    color: #776e65;
+    background: lch(87% 20.8 66);
     font-size: 40px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048); }
     @media screen and (max-width: 520px) {
       .tile.tile-377 .tile-inner {font-size: 18px; } }
   .tile.tile-610 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
+    color: #776e65;
+    background: lch(86% 22.4 64);
     font-size: 40px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381); }
     @media screen and (max-width: 520px) {
       .tile.tile-610 .tile-inner {font-size: 18px; } }
   .tile.tile-987 .tile-inner {
     color: #f9f6f2;
-    background: #edcc61;
+    background: lch(85% 24 62);
     font-size: 40px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571); }
     @media screen and (max-width: 520px) {
