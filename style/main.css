@@ -1,5 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700|Montserrat:400,700|Poppins|Space+Mono:400,400i,700,700i);
 @import url(https://fontlibrary.org/face/segment7);
+@font-face {font-family: "Google Sans"; font-weight: normal; font-style: normal; src: url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.eot"); src: url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.woff") format("woff"), url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.svg#Google Sans") format("svg"); }
+@font-face {font-family: "Google Sans"; font-weight: normal; font-style: italic; src: url("//db.onlinewebfonts.com/t/69b6dafcd18436d717d1c4a71c4eb6b1.eot"); src: url("//db.onlinewebfonts.com/t/69b6dafcd18436d717d1c4a71c4eb6b1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/69b6dafcd18436d717d1c4a71c4eb6b1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/69b6dafcd18436d717d1c4a71c4eb6b1.woff") format("woff"), url("//db.onlinewebfonts.com/t/69b6dafcd18436d717d1c4a71c4eb6b1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/69b6dafcd18436d717d1c4a71c4eb6b1.svg#Google Sans") format("svg"); }
+@font-face {font-family: "Google Sans"; font-weight: 500; font-style: normal; src: url("//db.onlinewebfonts.com/t/0e3f1c9efebea39cb811fbb86c2fc53f.eot"); src: url("//db.onlinewebfonts.com/t/0e3f1c9efebea39cb811fbb86c2fc53f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0e3f1c9efebea39cb811fbb86c2fc53f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0e3f1c9efebea39cb811fbb86c2fc53f.woff") format("woff"), url("//db.onlinewebfonts.com/t/0e3f1c9efebea39cb811fbb86c2fc53f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0e3f1c9efebea39cb811fbb86c2fc53f.svg#Google Sans Medium") format("svg"); }
+@font-face {font-family: "Google Sans"; font-weight: 500; font-style: italic; src: url("//db.onlinewebfonts.com/t/d2e7466051a55d11378042f258e951c1.eot"); src: url("//db.onlinewebfonts.com/t/d2e7466051a55d11378042f258e951c1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d2e7466051a55d11378042f258e951c1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d2e7466051a55d11378042f258e951c1.woff") format("woff"), url("//db.onlinewebfonts.com/t/d2e7466051a55d11378042f258e951c1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d2e7466051a55d11378042f258e951c1.svg#Google Sans Medium") format("svg"); }
+@font-face {font-family: "Google Sans"; font-weight: bold; font-style: normal; src: url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.eot"); src: url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.woff") format("woff"), url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.svg#Google Sans") format("svg"); }
+@font-face {font-family: "Google Sans"; font-weight: bold; font-style: italic; src: url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.eot"); src: url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.woff") format("woff"), url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.svg#Google Sans") format("svg"); }
+@font-face {font-family: "Google Sans Text"; font-weight: normal; font-style: normal; src: url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.eot"); src: url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.woff") format("woff"), url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.svg#Google Sans Text") format("svg"); }
+@font-face {font-family: "Google Sans Text"; font-weight: bold; font-style: normal; src: url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.eot"); src: url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.woff") format("woff"), url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.svg#Google Sans Text Medium") format("svg"); }
+
 progress {
   -webkit-appearance: none;
   transform: skewX(165deg);
@@ -39,7 +48,7 @@ html, body {
   padding: 0;
   background: #000000;
   color: #f9f6f2;
-  font-family: "Roboto";
+  font-family: "Google Sans Text", roboto, helvetica neue, sans-serif;
   font-size: 18px; }
 
 body {
@@ -86,7 +95,7 @@ h1.title {
   text-align: right; }
 
 .score-container, .best-container, .time-container {
-  font-family: "Roboto";
+  font-family: "Google Sans Text", roboto, helvetica neue, sans-serif;
   position: relative;
   display: inline-block;
   background: #3c3a32;
@@ -101,7 +110,7 @@ h1.title {
   margin-top: 8px;
   text-align: right; }
 .time-container {
-  font-family: "Space Mono"; }
+  font-family: "Space Mono", courier new, monospace; }
   .score-container:after, .best-container:after, .time-container:after {
     position: absolute;
     width: 100%;
@@ -127,17 +136,17 @@ h1.title {
 }
 .score-container:after {
   content: "Score";
-  font-family: "Roboto";
+  font-family: "Google Sans Text", roboto, helvetica neue, sans-serif;
   font-style: normal; }
 
 .best-container:after {
   content: "Best";
-  font-family: "Roboto";
+  font-family: "Google Sans Text", roboto, helvetica neue, sans-serif;
   font-style: normal; }
 
 .time-container:after {
   content: "Time";
-  font-family: "Roboto";
+  font-family: "Google Sans Text", roboto, helvetica neue, sans-serif;
   font-style: normal; }
 
 p {
@@ -393,42 +402,42 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-size: 45px;
-    font-family: "Poppins"; }
+    font-family: "Poppins", helvetica neue, sans-serif; }
   .tile.tile-1 .tile-inner {
-    background: #eee4da;
+    background: lch(99% 1.6 90);
     color: #776e65;
     font-size: 50px; }
   .tile.tile-2 .tile-inner {
-    background: #ede0c8;
+    background: lch(98% 3.2 88);
     color: #776e65;
     font-size: 50px; }
   .tile.tile-3 .tile-inner {
-    background: #ebd8a4;
+    background: lch(97% 4.8 86);
     color: #776e65;
     font-size: 50px; }
   .tile.tile-5 .tile-inner {
     color: #776e65;
-    background: #e9d080;
+    background: lch(96% 6.4 84);
     font-size: 50px; }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179;
+    color: #776e65;
+    background: lch(95% 8 82);
     font-size: 50px; }
   .tile.tile-13 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563;
+    color: #776e65;
+    background: lch(94% 9.6 80);
     font-size: 50px; }
   .tile.tile-21 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f;
+    color: #776e65;
+    background: lch(93% 11.2 78);
     font-size: 50px; }
   .tile.tile-34 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b;
+    color: #776e65;
+    background: lch(92% 12.8 76);
     font-size: 50px; }
   .tile.tile-55 .tile-inner {
-    color: #f9f6f2;
-    background: #f64017;
+    color: #776e65;
+    background: lch(91% 14.4 74);
     font-size: 50px; }
   .tile.tile-89 .tile-inner {
     color: #f9f6f2;
