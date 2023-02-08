@@ -8,7 +8,7 @@
 @font-face {font-family: "Google Sans"; font-weight: bold; font-style: italic; src: url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.eot"); src: url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.woff") format("woff"), url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.svg#Google Sans") format("svg"); }
 @font-face {font-family: "Google Sans Text"; font-weight: normal; font-style: normal; src: url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.eot"); src: url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.woff") format("woff"), url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.svg#Google Sans Text") format("svg"); }
 @font-face {font-family: "Google Sans Text"; font-weight: bold; font-style: normal; src: url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.eot"); src: url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.woff") format("woff"), url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.svg#Google Sans Text Medium") format("svg"); }
-
+button{accent-color: orange;}
 progress {
   -webkit-appearance: none;
   transform: skewX(165deg);
@@ -50,6 +50,7 @@ html, body {
   color: #f9f6f2;
   font-family: "Google Sans Text", roboto, helvetica neue, sans-serif;
   font-size: 18px; }
+#theming{transition: filter 1s;}
 
 body {
   margin: 80px 0; }
