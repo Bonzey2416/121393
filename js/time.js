@@ -13,15 +13,25 @@ function displayTime() {
   var max = 20;
   var prevMax = 0;
   var color = 1;
+  if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 30;}
   if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 60;}
+  if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 120;}
+  if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 180;}
   if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 300;}
+  if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 600;}
   if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 900;}
+  if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 1200;}
   if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 1800;}
+  if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 2700;}
   if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 3600;}
   if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 5400;}
   if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 7200;}
   if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 10800;}
   if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 14400;}
+  if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 18000;}
+  if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 21600;}
+  if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 25200;}
+  if (nowTime / 1000 > max) {color += 1; prevMax = max; max = 28800;}
   document.getElementsByClassName("time-container")[0].innerHTML = output + "<br><progress class=\"c" + color + "\" value=\"" + ((nowTime / 1000) - prevMax) + "\" max=\"" + (max - prevMax) + "\"></progress>";
   localStorage.setItem("time", nowTime);
 }
