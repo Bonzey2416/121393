@@ -112,32 +112,38 @@ HTMLActuator.prototype.updateScore = function (score) {
   var max = 100;
   var prevMax = 0;
   var color = 1;
+  if (score > max) {color += 1; prevMax = max; max = 10;}
+  if (score > max) {color += 1; prevMax = max; max = 100;}
+  if (score > max) {color += 1; prevMax = max; max = 250;}
   if (score > max) {color += 1; prevMax = max; max = 500;}
   if (score > max) {color += 1; prevMax = max; max = 1000;}
-  if (score > max) {color += 1; prevMax = max; max = 2500;}
+  if (score > max) {color += 1; prevMax = max; max = 2000;}
+  if (score > max) {color += 1; prevMax = max; max = 3000;}
   if (score > max) {color += 1; prevMax = max; max = 5000;}
   if (score > max) {color += 1; prevMax = max; max = 10000;}
+  if (score > max) {color += 1; prevMax = max; max = 15000;}
   if (score > max) {color += 1; prevMax = max; max = 20000;}
-  if (score > max) {color += 1; prevMax = max; max = 35000;}
+  if (score > max) {color += 1; prevMax = max; max = 25000;}
+  if (score > max) {color += 1; prevMax = max; max = 30000;}
+  if (score > max) {color += 1; prevMax = max; max = 40000;}
   if (score > max) {color += 1; prevMax = max; max = 50000;}
-  if (score > max) {color += 1; prevMax = max; max = 75000;}
+  if (score > max) {color += 1; prevMax = max; max = 60000;}
+  if (score > max) {color += 1; prevMax = max; max = 80000;}
   if (score > max) {color += 1; prevMax = max; max = 100000;}
-  if (score > max) {color += 1; prevMax = max; max = 150000;}
-  if (score > max) {color += 1; prevMax = max; max = 225000;}
-  if (score > max) {color += 1; prevMax = max; max = 375000;}
-  if (score > max) {color += 1; prevMax = max; max = 550000;}
-  if (score > max) {color += 1; prevMax = max; max = 750000;}
-  if (score > max) {color += 1; prevMax = max; max = 1000000;}
-  if (score > max) {color += 1; prevMax = max; max = 1250000;}
-  if (score > max) {color += 1; prevMax = max; max = 1600000;}
-  if (score > max) {color += 1; prevMax = max; max = 2000000;}
-  if (score > max) {prevMax = max; max = 3000000;}
-  if (score > max) {prevMax = max; max = 4000000;}
-  if (score > max) {prevMax = max; max = 5000000;}
-  if (score > max) {prevMax = max; max = 6250000;}
-  if (score > max) {prevMax = max; max = 7500000;}
-  if (score > max) {prevMax = max; max = 8750000;}
-  if (score > max) {prevMax = max; max = 10000000;}
+  if (score > max) {color += 1; prevMax = max; max = 120000;}
+  if (score > max) {prevMax = max; max = 140000;}
+  if (score > max) {prevMax = max; max = 170000;}
+  if (score > max) {prevMax = max; max = 200000;}
+  if (score > max) {prevMax = max; max = 250000;}
+  if (score > max) {prevMax = max; max = 300000;}
+  if (score > max) {prevMax = max; max = 350000;}
+  if (score > max) {prevMax = max; max = 420000;}
+  if (score > max) {prevMax = max; max = 500000;}
+  if (score > max) {prevMax = max; max = 600000;}
+  if (score > max) {prevMax = max; max = 700000;}
+  if (score > max) {prevMax = max; max = 800000;}
+  if (score > max) {prevMax = max; max = 900000;}
+  if (score > max) {prevMax = max; max = 1000000;}
   this.scoreContainer.innerHTML = this.score.toLocaleString() + "<br><progress class=\"c" + color + "\" value=\"" + (score - prevMax) + "\" max=\"" + (max - prevMax) + "\"></progress>";
 
   if (difference > 0) {
